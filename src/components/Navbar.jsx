@@ -1,6 +1,8 @@
 import React from "react";
 import Logo from "../assets/logo1.png";
-import { FaBars, FaTimes } from "react-icons/fa";
+import { FaBars } from "react-icons/fa";
+// FaTimes
+
 
 const Navbar = () => {
   return (
@@ -11,7 +13,7 @@ const Navbar = () => {
 
       {/* menu */}
       <div>
-        <ul>
+        <ul className="flex">
           <li>Home</li>
           <li>About</li>
           <li>Skills</li>
