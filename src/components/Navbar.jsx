@@ -12,18 +12,16 @@ const Navbar = () => {
       </div>
 
       {/* menu */}
-      <div>
-        <ul className="flex">
+        <ul className="hidden md:flex">
           <li>Home</li>
           <li>About</li>
           <li>Skills</li>
           <li>Work</li>
           <li>Contact</li>
         </ul>
-      </div>
 
       {/* Hamburger */}
-      <div className="hidden">
+      <div className="md:hidden">
         <FaBars />
       </div>
 
