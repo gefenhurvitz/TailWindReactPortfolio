@@ -1,6 +1,8 @@
 import React from "react";
 import Logo from "../assets/logo1.png";
-import { FaBars, FaTimes } from "react-icons/fa";
+import { FaBars, FaTimes , FaGithub, FaLinkedin, FaInstagram, FaFacebook } from "react-icons/fa";
+import {HiOutLineMail} from "react-icons/ai"
+import {BsFillPersonLinesFill } from "react-icons/bs"
 import { useState } from "react";
 // FaTimes
 
@@ -40,7 +42,17 @@ const Navbar = () => {
       </ul>
 
       {/* Social icons */}
-      <div></div>
+      <div className="flex fixed flex-col top-[35%] left-0 ">
+        <ul>
+          <li className="flex justify-between items-center w-[160px] h-[60px] ml-[-100px] hover:ml-[-10px] duration-500 bg-blue-800"  >
+            <a className="flex justify-between items-center w-full  text-gray-300"
+            href="/">
+              Facebook <FaFacebook size={30}/>
+            </a>
+          </li>
+        </ul>
+
+      </div>
     </div>
   );
 };
